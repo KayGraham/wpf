@@ -1,143 +1,52 @@
-//Expressions
+//Kayla Robinson
+//10-10-13
+//Expressions - Industry
 
-//var a = 2; //Declares variable a and defines it as 2
+//This will calculate the number of hours worked on a video for a client and the total amount the client owes.
 
-//a = a + 3; //Adds 3 to a and stores the new value
+//Variable for the name of the project
+var projectName = prompt("We are calculating the total amount to charge a client for a video. \nPlease enter the name of the project:");
 
-//console.log(a);
+//Variable for the number of hours spent during the initial meeting with the client.
+var initialMeetingHours = prompt("Please enter the number of hours the initial meeting with the client lasted: \n(Example 1)");
 
-//var a = 2; //Declares variable a and defines it as 2
+//Variable for the number of hours spent on research and gathering files for the project.
+var researchHours = prompt("Please enter the number of hours spent on research and gathering files for the " + projectName + " project:");
 
-//var b;
+//Variable for the number of hours spent creating the project.
+var creationHours = prompt("Please enter the number of hours spent creating the " + projectName + " project:");
 
-//b = a + 3; //Adds 3 to a and stores the new value as b
+//Variable for the cost of one hour of work.
+var costPerHour = prompt("Please enter the hourly rate for the " + projectName + " project: \n(Example 30.00)");
 
-//console.log(b);
+//Print out the number of hours spent during the initial meeting with the client.
+console.log("You spent a total of " + initialMeetingHours + " hour(s) meeting with the client for the " + projectName + " project.");
 
+//Print out the number of hours spent researching for the video.
+console.log("You spent a total of " + researchHours + " hour(s) researching for the " + projectName + " project.");
 
-//Expressions - Age Example
+//Print out the number of hours spent creating the video.
+console.log("You spent a total of " + creationHours + " hour(s) creating the " + projectName + " project.");
 
-//var yearBorn = 1974;
+//Calculating the total number of hours worked.
+var totalHours = Number(initialMeetingHours) + Number(researchHours) + Number(creationHours);
 
-//var age = 2013 - yearBorn - 1;
+//Print out the total number of hours spent on project.
+console.log("You spent a total of " + totalHours + " hours on the " + projectName + " project.");
 
-//console.log(age);
+//Calculating the difference of one free hour for meeting.
+totalHours -- ;
 
+//Print out the number of hours spent during the initial meeting with the client.
+console.log("You are charging the client $" + costPerHour + " per hour of work on the " + projectName + " project.");
 
-//Expression - Arithmetic Operations
+//Calculate the total cost of the project.
+var result = totalHours * costPerHour;
 
-//Area of a triagns is 1/2 W * H
+//Print out the total number of hours spent on project after one free hour.
+console.log("After the first free hour you spent a total of " + totalHours + " hours on the " + projectName + " project.");
 
-//var width = 8;
-
-//var height = 7;
-
-//var area;
-
-//area = width * height / 2;
-
-//console.log(area);
-
-
-//Expressions - Modulo Operator
-
-//var remainder = 9 % 2;
-
-//console.log(remainder);
-
-
-//Expressions - PEMDAS - Order of Operations
-
-//var quiz1 = 87;
-
-//var quiz2 = 100;
-
-//var quiz3 = 60;
-
-//var quiz4 = 80;
-
-//the average is the sum of the items devided by the number of items
-
-//var average = (quiz1 + quiz2 + quiz3 + quiz4) / 4;
-
-//console.log(average);
-
-//var length = 7;
-
-//var width = 6;
-
-//var perimeter = length * 2 + width * 2;
-
-//console.log(perimeter);
-
-
-//Expressions - Expressions with Arrays
-
-//var orangeBins = [234, 567, 883];
-
-//var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
-
-//console.log(total);
-
-
-//Expressions - Concatenating Strings
-
-//var firstName = "Kayla";
-
-//var lastName = "Robinson";
-
-//var fullName = firstName + " " + lastName;
-
-//console.log(fullName);
-
-//var a = "6";
-
-//var b = "7";
-
-//var a = 6;
-
-//var b = 7;
-
-//var result = a + b;
-
-//console.log(result);
-
-
-//Expression - Casting
-
-//var stringVar = "6";
-
-//var result = 7 + Number(stringVar);
-
-//console.log(result);
-
-//var areaCode = 407;
-
-//var firstPart = 203;
-
-//var secondPart = 4529;
-
-//(407)203-4529
-
-//var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
-
-//console.log(phoneNo);
-
-
-//Expression - Assignment Operators
-
-//var a = 3;
-
-//a -= 4; //a = a - 4
-
-//console.log(a);
-
-var a = 3;
-
-//a ++ ; //a = a += 1
-
-a -- ; //a = a -= 1
-
-console.log(a);
+//Print out the total cost of the project.
+console.log("The total cost will be $" + result + " for this project.");
 
 
