@@ -1,143 +1,41 @@
-//Expressions
+//Kayla Robinson
+//10-10-13
+//Expressions - Wacky
 
-//var a = 2; //Declares variable a and defines it as 2
+//This will calculate the total amount you will earn when consigning books.
 
-//a = a + 3; //Adds 3 to a and stores the new value
+//Get the name for book1.
+var book1Name = prompt("We are going to calculate the total amount earned when consigning 3 old books. \nEnter the name of the first book.");
 
-//console.log(a);
+//Get the sell price for book1.
+var book1Prices = prompt("Enter the sell price of " + book1Name + ". (Example 16.99)");
 
-//var a = 2; //Declares variable a and defines it as 2
+//Get the name for book2.
+var book2Name = prompt("Enter the name of the second book.");
 
-//var b;
+//Get the sell price for book2.
+var book2Prices = prompt("Enter the sell price of " + book2Name + ".");
 
-//b = a + 3; //Adds 3 to a and stores the new value as b
+//Get the name for book3.
+var book3Name = prompt("Enter the name of the third book.");
 
-//console.log(b);
+//Get the sell price for book3.
+var book3Prices = prompt("Enter the sell price of " + book3Name + ".");
 
+//Assign book1 to array
+var books = [book1Prices, book2Prices, book3Prices];
 
-//Expressions - Age Example
+//Print out the name and price for each book.
+console.log("You earned $" + book1Prices + " for " + book1Name + ". \nYou earned $" + book2Prices + " for " + book2Name + ". \nYou earned $" + book3Prices + " for " + book3Name + ".");
 
-//var yearBorn = 1974;
+//Use array to calculate the total amount for the three books.
+var result = Number(books[0]) + Number(books[1]) + Number(books[2]);
 
-//var age = 2013 - yearBorn - 1;
+//Print out the total amount for the books.
+console.log("You earned a total of $" + result + " for consigning your books.");
 
-//console.log(age);
+//Calculate the amount for consigning three books.
+result ++ ;
 
-
-//Expression - Arithmetic Operations
-
-//Area of a triagns is 1/2 W * H
-
-//var width = 8;
-
-//var height = 7;
-
-//var area;
-
-//area = width * height / 2;
-
-//console.log(area);
-
-
-//Expressions - Modulo Operator
-
-//var remainder = 9 % 2;
-
-//console.log(remainder);
-
-
-//Expressions - PEMDAS - Order of Operations
-
-//var quiz1 = 87;
-
-//var quiz2 = 100;
-
-//var quiz3 = 60;
-
-//var quiz4 = 80;
-
-//the average is the sum of the items devided by the number of items
-
-//var average = (quiz1 + quiz2 + quiz3 + quiz4) / 4;
-
-//console.log(average);
-
-//var length = 7;
-
-//var width = 6;
-
-//var perimeter = length * 2 + width * 2;
-
-//console.log(perimeter);
-
-
-//Expressions - Expressions with Arrays
-
-//var orangeBins = [234, 567, 883];
-
-//var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
-
-//console.log(total);
-
-
-//Expressions - Concatenating Strings
-
-//var firstName = "Kayla";
-
-//var lastName = "Robinson";
-
-//var fullName = firstName + " " + lastName;
-
-//console.log(fullName);
-
-//var a = "6";
-
-//var b = "7";
-
-//var a = 6;
-
-//var b = 7;
-
-//var result = a + b;
-
-//console.log(result);
-
-
-//Expression - Casting
-
-//var stringVar = "6";
-
-//var result = 7 + Number(stringVar);
-
-//console.log(result);
-
-//var areaCode = 407;
-
-//var firstPart = 203;
-
-//var secondPart = 4529;
-
-//(407)203-4529
-
-//var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
-
-//console.log(phoneNo);
-
-
-//Expression - Assignment Operators
-
-//var a = 3;
-
-//a -= 4; //a = a - 4
-
-//console.log(a);
-
-var a = 3;
-
-//a ++ ; //a = a += 1
-
-a -- ; //a = a -= 1
-
-console.log(a);
-
-
+//Print out the total amount for all three books plus additional money earned.
+console.log("You earned an additional $1 for consigning three books, your new total is $" + result + ".");

@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="2666" selection-end="2666" vertical-scroll-proportion="0.88939565" vertical-offset="0" max-vertical-offset="877">
+            <state line="0" column="0" selection-start="0" selection-end="2666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -80,7 +80,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -101,10 +100,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Expressions_Wacky/js" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -193,7 +194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2666" selection-end="2666" vertical-scroll-proportion="0.88939565" vertical-offset="0" max-vertical-offset="877">
+        <state line="0" column="0" selection-start="0" selection-end="2666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
