@@ -51,7 +51,7 @@ var gpa = 48;
 var age = 11;
 var book;
 
-//If the child is under 10, they ger Green Eggs and Ham, otherwise they get The Time Machine
+//If the child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
 /*if (age <10){
  book = "Green Eggs and Ham";
  }else{
@@ -59,7 +59,7 @@ var book;
  }
  console.log(book);*/
 
-//If the child is under 10, they ger Green Eggs and Ham, otherwise they get The Time Machine
+//If the child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
 book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 console.log(book);
 
