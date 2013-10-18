@@ -1,6 +1,6 @@
 //Conditional Logic
 
-var kidHeight = 52;
+var kidHeight = 32;
 var minHeight = 48;
 //var sneakerLift = 2;
 var wParentHeight = 45; //the height of the kid with the parent
@@ -11,7 +11,7 @@ if (kidHeight > minHeight){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 
-}else if(kidHeight > wParentHeight){
+}else if(kidHeight < wParentHeight){
     //you can ride with a parent present
     console.log("You can ride, but only with a parent present.");
 
